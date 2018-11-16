@@ -24,3 +24,7 @@ SYN-G-GEN http://syn-g-gen.com
 ## Files 
 
 clean.bat -- clear work folder and copy reference files.
+
+# Sample
+
+![](https://raw.githubusercontent.com/NNNIC/psgg-swift-sample/master/wiki/test1.png)
