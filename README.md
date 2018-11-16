@@ -1,8 +1,8 @@
 # psgg-swift-sample
 
 Windows
-Swift
-SYN-G-GEN http://syn-g-gen.com
+Swift  
+SYN-G-GEN http://syn-g-gen.com  
 
 # INSTRUCTION
 
