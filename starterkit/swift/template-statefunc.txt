@@ -1,0 +1,45 @@
+<<<?state/^C_/
+eof>>>
+
+/*
+    [[state]]
+    [[state-cmt]]
+*/
+<<<?state/^E_/
+[[embed]]
+eof>>>
+[[members]]
+func [[state]](_ bFirst : Bool ) {
+
+    [[vars]]
+
+    <<<?init
+    if bFirst {
+        [[init]]
+    }
+    >>>
+
+    [[update]]
+
+    <<<?wait
+    if [[wait]] { return; }
+    >>>
+
+    [[post_wait]]
+
+    [[branch]]
+
+    <<<?nextstate        
+    if !HasNextState()
+    {
+        Goto("[[nextstate]]");
+    }
+    >>>
+
+    <<<?nowait
+    if (HasNextState())
+    {
+        NoWait();
+    }
+    >>>
+}
