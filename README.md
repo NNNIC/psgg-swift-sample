@@ -2,13 +2,13 @@
 
 Windows
 Swift  
-SYN-G-GEN http://syn-g-gen.com  
+SYN-G-GEN https://statego.programanic.com/  
 
 # INSTRUCTION
 
 1. Goto 'playground'
    If a statemachine exists, run clean.bat
-2. Start SYN-G-GEN
+2. Start StateGo
 3. Select New State Machine
 4. Set TestControl as a statemachine name.
 5. Set the full path of "playgound\work\doc" as doc folder
