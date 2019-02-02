@@ -2,7 +2,7 @@
 
 Windows
 Swift  
-SYN-G-GEN https://statego.programanic.com/  
+StateGo https://statego.programanic.com/  
 
 # INSTRUCTION
 
