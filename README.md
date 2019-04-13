@@ -2,7 +2,7 @@
 
 Windows
 Swift  
-StateGo https://statego.programanic.com/  
+StateGo https://statego.programanic.com/index-e.html  
 
 # INSTRUCTION
 
