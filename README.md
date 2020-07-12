@@ -5,7 +5,7 @@ Code Mixed Visual Programming Tool StateGo's Swift sample.
 ## Environment
 
 Windows 10  
-Ubuntu for windows  
+Ubuntu on windows  
 Swift (swift-5.2.4-RELEASE-ubuntu18.04)   
 StateGo https://statego.programanic.com/  
 
