@@ -53,7 +53,7 @@ n01e=basestate
 s0001=S_START
 s0002=S_END
 s0003=S_HELLOWORLD
-s0004=S_HELLOWORLD1
+s0004=S_NEWERA
 s0005=S_GSB000
 s0006=S_SBS000
 s0007=S_SUBROUTINE
@@ -96,7 +96,7 @@ n018=100002
 [s0003]
 n001=(bitmap)
 n002=S_HELLOWORLD
-n005=S_HELLOWORLD1
+n005=S_NEWERA
 n009=print("Hello World.")
 n016=@@@
 /
@@ -108,7 +108,7 @@ n017=206,20
 n018=100003
 
 [s0004]
-n002=S_HELLOWORLD1
+n002=S_NEWERA
 n005=S_GSB000
 n009=@@@
 print("We are in the visual programming era.")
@@ -324,7 +324,7 @@ n018=100018
 sheet=config
 
 ###VARIOUS-CONTENTS-BEGIN###
-; The setting was created automatically. 2020/07/12 10:17:53
+; The setting was created automatically. 2020/07/12 10:23:32
 ; * pssgEditor version : 0.65.30181.c1f731a61c084a50af056af301b5a2c33505b45f
 psggfile=@@@
 TestControl.psgg
@@ -342,7 +342,7 @@ c_thumbnail=1
 c_contents=1
 force_display_outpin=0
 last_action=@@@
-mov,align H
+init,Initilized
 @@@
 target_pathdir=@@@
 /
@@ -357,7 +357,7 @@ nodegroup_pos_list=@@@
 [{"Key":"\/","Value":{"x":100,"y":100}}]
 @@@
 fillter_state_location_list=@@@
-[{"Key":"\/","Value":[{"Key":"S_START","Value":{"x":32,"y":29}},{"Key":"S_END","Value":{"x":1164,"y":286}},{"Key":"S_HELLOWORLD","Value":{"x":206,"y":20}},{"Key":"S_HELLOWORLD1","Value":{"x":483,"y":21}},{"Key":"S_GSB000","Value":{"x":22,"y":278}},{"Key":"S_SBS000","Value":{"x":135,"y":749}},{"Key":"S_RET000","Value":{"x":604,"y":749}},{"Key":"S_SUBROUTINE","Value":{"x":318,"y":749}},{"Key":"S_SUBROUTINE1","Value":{"x":409,"y":395}},{"Key":"S_LOP000","Value":{"x":150,"y":278}},{"Key":"S_SBS001","Value":{"x":253,"y":395}},{"Key":"S_RET001","Value":{"x":1033,"y":445}},{"Key":"S_RET002","Value":{"x":827,"y":448}},{"Key":"S_RET003","Value":{"x":624.1818,"y":434.8182}},{"Key":"S_HELLOWORLD2","Value":{"x":628,"y":325}},{"Key":"S_HELLOWORLD3","Value":{"x":628,"y":420}},{"Key":"S_HELLOWORLD4","Value":{"x":628,"y":511}},{"Key":"S_HELLOWORLD5","Value":{"x":628,"y":605}}]}]
+[{"Key":"\/","Value":[{"Key":"S_START","Value":{"x":32,"y":29}},{"Key":"S_END","Value":{"x":1164,"y":286}},{"Key":"S_HELLOWORLD","Value":{"x":206,"y":20}},{"Key":"S_GSB000","Value":{"x":22,"y":278}},{"Key":"S_SBS000","Value":{"x":135,"y":749}},{"Key":"S_RET000","Value":{"x":604,"y":749}},{"Key":"S_SUBROUTINE","Value":{"x":318,"y":749}},{"Key":"S_SUBROUTINE1","Value":{"x":409,"y":395}},{"Key":"S_LOP000","Value":{"x":150,"y":278}},{"Key":"S_SBS001","Value":{"x":253,"y":395}},{"Key":"S_RET001","Value":{"x":1033,"y":445}},{"Key":"S_HELLOWORLD2","Value":{"x":628,"y":325}},{"Key":"S_HELLOWORLD3","Value":{"x":628,"y":420}},{"Key":"S_HELLOWORLD4","Value":{"x":628,"y":511}},{"Key":"S_HELLOWORLD5","Value":{"x":628,"y":605}},{"Key":"S_NEWERA","Value":{"x":483,"y":21}}]}]
 @@@
 linecolor_data=@@@
 [{"color":{"knownColor":0,"name":null,"state":2,"value":4285493103},"pattern":"BACKTO_"}]

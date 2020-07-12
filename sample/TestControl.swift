@@ -26,7 +26,6 @@
                     case "S_END": S_END(bFirst)
                     case "S_GSB000": S_GSB000(bFirst)
                     case "S_HELLOWORLD": S_HELLOWORLD(bFirst)
-                    case "S_HELLOWORLD1": S_HELLOWORLD1(bFirst)
                     case "S_HELLOWORLD2": S_HELLOWORLD2(bFirst)
                     case "S_HELLOWORLD3": S_HELLOWORLD3(bFirst)
                     case "S_HELLOWORLD4": S_HELLOWORLD4(bFirst)
@@ -34,6 +33,7 @@
                     case "S_LOP000": S_LOP000(bFirst)
                     case "S_LOP000_LoopCheckAndGosub____" : S_LOP000_LoopCheckAndGosub____(bFirst)
                     case "S_LOP000_LoopNext____" : S_LOP000_LoopNext____(bFirst)
+                    case "S_NEWERA": S_NEWERA(bFirst)
                     case "S_RET000": S_RET000(bFirst)
                     case "S_RET001": S_RET001(bFirst)
                     case "S_SBS000": S_SBS000(bFirst)
@@ -111,19 +111,7 @@
         }
         if !HasNextState()
         {
-            Goto("S_HELLOWORLD1");
-        }
-    }
-    /*
-        S_HELLOWORLD1
-    */
-    func S_HELLOWORLD1(_ bFirst : Bool ) {
-        if bFirst {
-            print("We are in the visual programming era.")
-        }
-        if !HasNextState()
-        {
-            Goto("S_GSB000");
+            Goto("S_NEWERA");
         }
     }
     /*
@@ -199,6 +187,18 @@
         m_index += 1
         Goto("S_LOP000_LoopCheckAndGosub____")
         NoWait()
+    }
+    /*
+        S_NEWERA
+    */
+    func S_NEWERA(_ bFirst : Bool ) {
+        if bFirst {
+            print("We are in the visual programming era.")
+        }
+        if !HasNextState()
+        {
+            Goto("S_GSB000");
+        }
     }
     /*
         S_RET000
